@@ -200,3 +200,345 @@ Received Import Request.
   path: Assets/SpriteSheets/tiles_spritesheet.png
   artifactKey: Guid(1a05794977cf9a842bf1aa3b6b18e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpriteSheets/tiles_spritesheet.png using Guid(1a05794977cf9a842bf1aa3b6b18e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1d5fa23870bea62663196c39e0b523') in 0.258774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 818.080531 seconds.
+  path: Assets/SpriteSheets/player
+  artifactKey: Guid(608f2b1685f0697439c543cfa2fb5ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player using Guid(608f2b1685f0697439c543cfa2fb5ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ba0bbd20093eb4e91a19454541a21b') in 0.007537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046798 seconds.
+  path: Assets/SpriteSheets/player/john_crouch.png
+  artifactKey: Guid(e2478d7d3f138cd44a6de78ffdbbe476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_crouch.png using Guid(e2478d7d3f138cd44a6de78ffdbbe476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57b94a2ab28cc96d0a0af805c99042a') in 0.104181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpriteSheets/player/john_landing.png
+  artifactKey: Guid(35a2c71a15e4536488eac7ad0533948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_landing.png using Guid(35a2c71a15e4536488eac7ad0533948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddc3da55e309c54c5d8226323370ba5') in 0.054460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SpriteSheets/player/john_hithurt_ng.png
+  artifactKey: Guid(3a4008502563e6f4c8eea560d202b7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hithurt_ng.png using Guid(3a4008502563e6f4c8eea560d202b7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bee80b42304c4d325ba5663951b710') in 0.059136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SpriteSheets/player/john_stand_shooting_up.png
+  artifactKey: Guid(0f4b4c489a2828d4bbacec783b37a99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_shooting_up.png using Guid(0f4b4c489a2828d4bbacec783b37a99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80549dfd72c2a6c0275d9956756650f') in 0.042224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpriteSheets/player/john_idle_ng.png
+  artifactKey: Guid(57248fd3e6787b247bfa10d40697393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_idle_ng.png using Guid(57248fd3e6787b247bfa10d40697393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2356ecb470f1625d408ff92ec06399') in 0.021109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpriteSheets/player/john_stand_shooting.png
+  artifactKey: Guid(d0558c83ad77f744b82c865bff3020dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_shooting.png using Guid(d0558c83ad77f744b82c865bff3020dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5f032d2ac043b39f99a4a96fe85e6e') in 0.014143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimupdiag_firing.png
+  artifactKey: Guid(b2260de7d752e804f9fa8da302e55709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimupdiag_firing.png using Guid(b2260de7d752e804f9fa8da302e55709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c21618c2d1680684eb90517545817d') in 0.024767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SpriteSheets/player/john_stand_looking_down_diag.png
+  artifactKey: Guid(7e8e87cd3e9c15f47904b334027ef709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_looking_down_diag.png using Guid(7e8e87cd3e9c15f47904b334027ef709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae178e1db834dbabc1b460ab8b3c5bbb') in 0.017359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimupup_firing.png
+  artifactKey: Guid(1cb6f19c9e172a2469936c94be4b5cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimupup_firing.png using Guid(1cb6f19c9e172a2469936c94be4b5cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dffcca2ed87dacd1915ad020be810d') in 0.013838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SpriteSheets/player/john_jump_ng.png
+  artifactKey: Guid(397e69be5f372e84da9cd0c946d32482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_jump_ng.png using Guid(397e69be5f372e84da9cd0c946d32482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c11254552601b82fcdae621ec28bdbe') in 0.014238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimdowndiag.png
+  artifactKey: Guid(e71cd4c2b9b27dd42aab7418a47a25fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimdowndiag.png using Guid(e71cd4c2b9b27dd42aab7418a47a25fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0de86cbfc4698a9e078bc52a3a619c') in 0.016470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpriteSheets/player/john_hithurt.png
+  artifactKey: Guid(75f59c5f0308f2b48a4771c4a768edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hithurt.png using Guid(75f59c5f0308f2b48a4771c4a768edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0294dc05fa8484c7b2fcfddd85dbeb10') in 0.016307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/player/john_stand_up_diag.png
+  artifactKey: Guid(57bcd6e7459d1da4c99d1fd2927f7cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_up_diag.png using Guid(57bcd6e7459d1da4c99d1fd2927f7cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9597de3e4703996437b4847850352cc8') in 0.012048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SpriteSheets/player/john_dead_soul.png
+  artifactKey: Guid(b5f686e6822414648a75ff7143235711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_dead_soul.png using Guid(b5f686e6822414648a75ff7143235711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c9985c8dfc7179e1755f7091f8ec88') in 0.020571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002521 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimdown_firing.png
+  artifactKey: Guid(dbb0a227785958c4687f70ce4de8493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimdown_firing.png using Guid(dbb0a227785958c4687f70ce4de8493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a395b3083beb0e255deab92500852c3b') in 0.014591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SpriteSheets/player/john_run_shoot_ng.png
+  artifactKey: Guid(a76ab097b811adf46afbaa2aac311bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run_shoot_ng.png using Guid(a76ab097b811adf46afbaa2aac311bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfade2d9222ce43fba02a1e1700fbde') in 0.019975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SpriteSheets/player/john_crouch_ng.png
+  artifactKey: Guid(1da79603ed084bd43a64e06c00d352b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_crouch_ng.png using Guid(1da79603ed084bd43a64e06c00d352b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db983db7c9f5d77da967711a0b0a4490') in 0.011580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SpriteSheets/player/john_jump.png
+  artifactKey: Guid(ff31d00ca91a5364e81fe313f37ff35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_jump.png using Guid(ff31d00ca91a5364e81fe313f37ff35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4042aa52d9c255e76cb99ef1bd9cfb') in 0.011851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SpriteSheets/player/john_jump_ng_aimup.png
+  artifactKey: Guid(9f1d03f7ff31208439fee4c18f137bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_jump_ng_aimup.png using Guid(9f1d03f7ff31208439fee4c18f137bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994aa5ac9ac01555cc7b39d59a744851') in 0.016644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SpriteSheets/player/john_stand_shooting_up_diag.png
+  artifactKey: Guid(9bd144c94e8ecaa489d80469b96eab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_shooting_up_diag.png using Guid(9bd144c94e8ecaa489d80469b96eab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d89c8775da982a7898fa7512c01da53') in 0.018416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/SpriteSheets/player/john_run_shoot_up_diag.png
+  artifactKey: Guid(250b996ab9e12fa4cbc52431dfd2b406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run_shoot_up_diag.png using Guid(250b996ab9e12fa4cbc52431dfd2b406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4092a68fbc4371481c7750838a4ee78') in 0.047717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimdown.png
+  artifactKey: Guid(7fb6decc582472c4db93c93469e751fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimdown.png using Guid(7fb6decc582472c4db93c93469e751fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f26f13b3b82c6059832b28a91c14be7') in 0.018165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SpriteSheets/player/john_jump_ng_aimdiagup.png
+  artifactKey: Guid(048f806ef0c55ab478aeccafcccd89e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_jump_ng_aimdiagup.png using Guid(048f806ef0c55ab478aeccafcccd89e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4f7863f80e1cd696a0b8e3f403925c') in 0.012720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/SpriteSheets/player/john_crouch_shoot.png
+  artifactKey: Guid(1aaa4ad0491d6844c8363a272e797689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_crouch_shoot.png using Guid(1aaa4ad0491d6844c8363a272e797689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0ef415127c5b223ffed632191409c7') in 0.010074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimdowndiag_firing.png
+  artifactKey: Guid(4752f0430f234954eb96f19eee9ec2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimdowndiag_firing.png using Guid(4752f0430f234954eb96f19eee9ec2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc8efd8aefc6ef2d03fd686f69c94b7') in 0.013313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SpriteSheets/player/john_stand_looking_up_diag.png
+  artifactKey: Guid(cee3b03af6bd81742ad58f49e388700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_looking_up_diag.png using Guid(cee3b03af6bd81742ad58f49e388700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b991bcf2ddfdb86b68df8d2bd68bc4d5') in 0.014001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpriteSheets/player/john_jump_ng_aimdiagdown.png
+  artifactKey: Guid(a29ac2b2f80003940b07be760f73328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_jump_ng_aimdiagdown.png using Guid(a29ac2b2f80003940b07be760f73328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe2a30b848a1e80d5e69523bd671559') in 0.020255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpriteSheets/player/john_run_NG_diag_aimdowndiag.png
+  artifactKey: Guid(4ed8f52e8d15f044ba024d47a082df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run_NG_diag_aimdowndiag.png using Guid(4ed8f52e8d15f044ba024d47a082df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085d5abfe55066434a391c20cbae5d44') in 0.016124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_fire_right.png
+  artifactKey: Guid(56e2c5d9de1d7dd449dcd7afc78c5d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_fire_right.png using Guid(56e2c5d9de1d7dd449dcd7afc78c5d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae20568085495c67fffb1a2d9e1a563') in 0.016452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SpriteSheets/player/john_stand_looking_up.png
+  artifactKey: Guid(1a7fe8acc6f3c414d9534f10ffd22a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_looking_up.png using Guid(1a7fe8acc6f3c414d9534f10ffd22a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16630992cf14d0b71cf3dd7d21f6a552') in 0.012241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SpriteSheets/player/john_run_shoot.png
+  artifactKey: Guid(280f883d6539fc440b4a744df5778d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run_shoot.png using Guid(280f883d6539fc440b4a744df5778d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c35e2b4ee15e6c13c7edff1584f2ec4') in 0.013534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SpriteSheets/player/john_run_ng.png
+  artifactKey: Guid(eee8cc5bde71b1b47abd142c7037c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run_ng.png using Guid(eee8cc5bde71b1b47abd142c7037c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2a7d078175ae06a1c4d36aeeaa34dd') in 0.019368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SpriteSheets/player/john_dead.png
+  artifactKey: Guid(a95eb0c9017106044ace3907fb497f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_dead.png using Guid(a95eb0c9017106044ace3907fb497f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c396e1d20a68f76d914275412510bec') in 0.012238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_move.png
+  artifactKey: Guid(d73ed1e0fbb2f934b9ab033cfb1a76a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_move.png using Guid(d73ed1e0fbb2f934b9ab033cfb1a76a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df953f15d6f2d6a97be95f939d4899b') in 0.013359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SpriteSheets/player/john_idle.png
+  artifactKey: Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_idle.png using Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f402cde6ff859a3c68d5c01a87d292a') in 0.022620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SpriteSheets/player/john_run_up_diag.png
+  artifactKey: Guid(a0c6c84c6e33eed43b36752760470369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run_up_diag.png using Guid(a0c6c84c6e33eed43b36752760470369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dd72ecaa6f2f9141f167ae9b0d23b4') in 0.015023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SpriteSheets/player/john_stand_shooting_ng.png
+  artifactKey: Guid(389ae4e4d0d1aba458cfd31b443cfeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_shooting_ng.png using Guid(389ae4e4d0d1aba458cfd31b443cfeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2494aa0f5a35b9b6c98b2e37a59cce5b') in 0.011897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SpriteSheets/player/john_defeated.png
+  artifactKey: Guid(445e203f3bd25e5429a659dd87e89651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_defeated.png using Guid(445e203f3bd25e5429a659dd87e89651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4687be8273653eddb2353dfb01d345a3') in 0.016041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpriteSheets/player/john_jump_ng_aimdown.png
+  artifactKey: Guid(883294a8f4cc59c4ab8b1cffd39ae570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_jump_ng_aimdown.png using Guid(883294a8f4cc59c4ab8b1cffd39ae570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a0fcebab04663832c72d19aebd6526') in 0.010949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpriteSheets/player/john_static.png
+  artifactKey: Guid(ca3398baa5ee02d42a16a22ace19ea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_static.png using Guid(ca3398baa5ee02d42a16a22ace19ea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26e865ea32d0ac917f17105202a4314') in 0.013693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SpriteSheets/player/john_crouch_shoot_ng.png
+  artifactKey: Guid(716d57c2433c6b145bb6a338040fdfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_crouch_shoot_ng.png using Guid(716d57c2433c6b145bb6a338040fdfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f62522fe4438940a7c79b9f2c47021d') in 0.013877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/player/john_run.png
+  artifactKey: Guid(f5ae499770339c841b8ba5228ff49aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_run.png using Guid(f5ae499770339c841b8ba5228ff49aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0f3457e583308bc518429604f1d468') in 0.016783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_idle.png
+  artifactKey: Guid(fb2c1037f7f37bc45814143dd9425851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_idle.png using Guid(fb2c1037f7f37bc45814143dd9425851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe5721896b7e5e5751550df81e84093') in 0.016067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SpriteSheets/player/jump_dust.png
+  artifactKey: Guid(4aff2b300d05c364c8db155da69ae4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/jump_dust.png using Guid(4aff2b300d05c364c8db155da69ae4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da6432ea7dd6abe5027b728592a0583') in 0.011477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimupup.png
+  artifactKey: Guid(d10e7a8820b29dd45bb17a438b8aa360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimupup.png using Guid(d10e7a8820b29dd45bb17a438b8aa360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0577e54bd52351f5ce0a09936f3bb24') in 0.018789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpriteSheets/player/john_stand_shooting_down_diag.png
+  artifactKey: Guid(72a838eb17782844cb3fe0ab61db61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_stand_shooting_down_diag.png using Guid(72a838eb17782844cb3fe0ab61db61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796e7a25f405eda19419183f4484bd0f') in 0.013193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpriteSheets/player/john_defeated_ng.png
+  artifactKey: Guid(a8f88f6649948044aae2b7ebad5ccb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_defeated_ng.png using Guid(a8f88f6649948044aae2b7ebad5ccb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2a79eebbee3bd6fb32b43021473f6') in 0.016999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SpriteSheets/player/john_hagging.png
+  artifactKey: Guid(a224db2bd7f08f14ca5394ce6dd2e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging.png using Guid(a224db2bd7f08f14ca5394ce6dd2e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c82776433fa0966464c01f5d31289ae') in 0.010906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SpriteSheets/player/john_hagging_aimupdiag.png
+  artifactKey: Guid(0996b89deb7344e4496ffabf52b14cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_hagging_aimupdiag.png using Guid(0996b89deb7344e4496ffabf52b14cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d0a8a42bce73bc50274044d73c9500') in 0.012037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.256373 seconds.
+  path: Assets/SpriteSheets/player/player_weapon_break.png
+  artifactKey: Guid(d3a4942e4cdbd04459f460022b58fbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/player_weapon_break.png using Guid(d3a4942e4cdbd04459f460022b58fbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c329beb272d95f04bc506051eb193f8') in 0.027203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/player/weapon_bullet_level2.png
+  artifactKey: Guid(1d4f37af9df8d294a96b6b8e1c048daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/weapon_bullet_level2.png using Guid(1d4f37af9df8d294a96b6b8e1c048daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fc01995dcb81871dbe5d0774ddb72f') in 0.027449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SpriteSheets/player/run_dust.png
+  artifactKey: Guid(454de8170d84ad44fb766251f7738be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/run_dust.png using Guid(454de8170d84ad44fb766251f7738be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773c25feed7124b7989f682182e182df') in 0.034465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001522 seconds.
+  path: Assets/SpriteSheets/player/weapon_bullet.png
+  artifactKey: Guid(b5823cf7aed76894492e7c9c46541563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/weapon_bullet.png using Guid(b5823cf7aed76894492e7c9c46541563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4f25ca8163d6a63bd77bee3c8b3643') in 0.030075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.383834 seconds.
+  path: Assets/SpriteSheets/player/john_idle.png
+  artifactKey: Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_idle.png using Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50515decdafe6cc13b7e2f0061025e9d') in 0.045319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.624579 seconds.
+  path: Assets/SpriteSheets/player/john_idle.png
+  artifactKey: Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_idle.png using Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7689dc192c9615718fe187b96dcf3a73') in 0.011674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.323568 seconds.
+  path: Assets/SpriteSheets/player/john_idle.png
+  artifactKey: Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/player/john_idle.png using Guid(9974843c00cbdbd4385052e1dda5dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13092b20eac1dcbd598e9c36b2ca650d') in 0.034038 seconds 
