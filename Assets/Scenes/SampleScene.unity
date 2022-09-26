@@ -2989,6 +2989,7 @@ GameObject:
   - component: {fileID: 1982022726}
   - component: {fileID: 1982022725}
   - component: {fileID: 1982022727}
+  - component: {fileID: 1982022728}
   m_Layer: 0
   m_Name: John
   m_TagString: Untagged
@@ -3112,3 +3113,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eafe199b9603c2849bb83c568a05c7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  JumpForce: 0
+  Speed: 0
+  Grounded: 0
+--- !u!95 &1982022728
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982022722}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdf1e65d77c26524496c9db0a0cd892d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

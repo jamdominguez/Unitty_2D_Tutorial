@@ -7,15 +7,18 @@ public class JohnMovement : MonoBehaviour
 {
     public float JumpForce;
     public float Speed;
-    public bool Grounded;
+    private bool Grounded;
+    private bool Running;
 
     private Rigidbody2D Rigidbody2D;
-    private float Horizontal;
+    private Animator Animator;
+    private float Horizontal;    
 
     // Start is called before the first frame update
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
         JumpForce = 120;
         Speed = 1.1f;
         Grounded = false;
@@ -25,6 +28,10 @@ public class JohnMovement : MonoBehaviour
     void Update()
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
+
+        Running = Horizontal != 0.0f;
+        Animator.SetBool("running", Running);
+
         Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
         // Check if is grounded        
         if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f)) Grounded = true;
