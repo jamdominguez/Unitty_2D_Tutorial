@@ -27,7 +27,7 @@ public class JohnMovement : MonoBehaviour
         Speed = 1.1f;
         Grounded = false;
         ShootDelayTime = 0.25f;
-        OffSetGunSprite = new Vector3(0, 1, 0);
+        OffSetGunSprite = new Vector3(0, -0.025f, 0);
     }
 
     // Update is called once per frame
