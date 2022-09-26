@@ -27,15 +27,20 @@ public class JohnMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Get Horizontal movement
         Horizontal = Input.GetAxisRaw("Horizontal");
 
+        // Set if is running
         Running = Horizontal != 0.0f;
         Animator.SetBool("running", Running);
 
-        Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
+        // Turn sprite according movement orientation
+        if (Horizontal < 0.0f) transform.localScale = new Vector3(-1, 1, 1);
+        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1, 1, 1);        
+
+        //Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
         // Check if is grounded        
-        if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f)) Grounded = true;
-        else Grounded = false;
+        Grounded = Physics2D.Raycast(transform.position, Vector3.down, 0.1f) ? true : false;
         // Jump
         if (Input.GetKeyDown(KeyCode.Space) && Grounded) Jump();
                  

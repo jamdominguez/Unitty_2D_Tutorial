@@ -3115,7 +3115,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JumpForce: 0
   Speed: 0
-  Grounded: 0
 --- !u!95 &1982022728
 Animator:
   serializedVersion: 4
