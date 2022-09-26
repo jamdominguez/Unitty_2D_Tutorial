@@ -26,6 +26,10 @@ public class Bullet : MonoBehaviour
         Direction = NewDirection;
     }
 
+    public void DestroyBullet() {
+        Destroy(gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {

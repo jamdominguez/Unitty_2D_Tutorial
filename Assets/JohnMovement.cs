@@ -10,10 +10,13 @@ public class JohnMovement : MonoBehaviour
     private bool Grounded;
     private bool Running;
     public GameObject BulletPrefab;
+    public float ShootDelayTime;
+    public Vector3 OffSetGunSprite = new Vector3(0, 5, 0);
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
     private float Horizontal;
+    private float LastShootTime;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class JohnMovement : MonoBehaviour
         JumpForce = 120;
         Speed = 1.1f;
         Grounded = false;
+        ShootDelayTime = 0.25f;
+        OffSetGunSprite = new Vector3(0, 1, 0);
     }
 
     // Update is called once per frame
@@ -50,10 +55,13 @@ public class JohnMovement : MonoBehaviour
     }
 
     private void Shoot()
-    {        
-        Vector3 direction = transform.localScale.x == 1.0f ? Vector3.right : Vector3.left;
-        GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);
-        bullet.GetComponent<Bullet>().SetDirection(direction);
+    {
+        if (Time.time >= LastShootTime + ShootDelayTime) {
+            Vector3 direction = transform.localScale.x == 1.0f ? Vector3.right : Vector3.left;            
+            GameObject bullet = Instantiate(BulletPrefab, transform.position + OffSetGunSprite + direction * 0.1f, Quaternion.identity);
+            bullet.GetComponent<Bullet>().SetDirection(direction);
+            LastShootTime = Time.time;
+        }
     }
 
     private void FixedUpdate()
