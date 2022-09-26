@@ -9,10 +9,11 @@ public class JohnMovement : MonoBehaviour
     public float Speed;
     private bool Grounded;
     private bool Running;
+    public GameObject BulletPrefab;
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
-    private float Horizontal;    
+    private float Horizontal;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +44,16 @@ public class JohnMovement : MonoBehaviour
         Grounded = Physics2D.Raycast(transform.position, Vector3.down, 0.1f) ? true : false;
         // Jump
         if (Input.GetKeyDown(KeyCode.Space) && Grounded) Jump();
-                 
+
+        // Shot
+        if (Input.GetKeyDown(KeyCode.K)) Shoot();
+    }
+
+    private void Shoot()
+    {        
+        Vector3 direction = transform.localScale.x == 1.0f ? Vector3.right : Vector3.left;
+        GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);
+        bullet.GetComponent<Bullet>().SetDirection(direction);
     }
 
     private void FixedUpdate()

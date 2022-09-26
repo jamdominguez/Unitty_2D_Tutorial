@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public float Speed;
 
     private Rigidbody2D Rigidbody2D;
+    private Vector2 Direction;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,11 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = Vector2.right * Speed;
+        Rigidbody2D.velocity = Direction * Speed;
+    }
+
+    public void SetDirection(Vector2 NewDirection) {
+        Direction = NewDirection;
     }
 
     // Update is called once per frame
