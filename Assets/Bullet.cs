@@ -5,29 +5,41 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour 
 {
-    public float Speed;
+    public float speed;
 
     private Rigidbody2D Rigidbody2D;
     private Vector2 Direction;
 
     // Start is called before the first frame update
     void Start()
-    {
-        Speed = 2.0f;
+    {        
         Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = Direction * Speed;
+        Debug.Log("Bullet - speed: " + speed);
+        Rigidbody2D.velocity = Direction * speed;
     }
 
-    public void SetDirection(Vector2 NewDirection) {
+    public void SetDirection(Vector2 NewDirection, float newSpeed) {
         Direction = NewDirection;
+        speed = newSpeed;
     }
 
     public void DestroyBullet() {
         Destroy(gameObject);
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        JohnMovement john = collision.collider.GetComponent<JohnMovement>();
+        //If John is null, this collision not is against John
+        if (john) john.Die();
+        GruntMovement grunt = collision.collider.GetComponent<GruntMovement>();
+        //If Grunt is null, this collision not is against Grunt
+        if (grunt) grunt.Die();
+
     }
 
     // Update is called once per frame

@@ -5,13 +5,19 @@ using UnityEngine;
 public class GruntMovement : MonoBehaviour
 {
     public float speed;
+    public GameObject John;
+    public GameObject BulletPrefab;    
 
     private Animator Animator;
     private Rigidbody2D Rigidbody2D;
-    private Vector3 initialPosition;
 
     private const float MAX_MOVEMENT_X = 1f;
+    private const float DISTANCE_TO_SHOT = 1f;
+    private const float SHOOT_DELAY = 3f;
+    private Vector3 initialPosition;
     private bool runningRight;
+    private float lastShoot;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +34,15 @@ public class GruntMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Alwways watching John position
+        Vector3 direction = John.transform.position - transform.position;
+        if (direction.x >= 0.0f) transform.localScale = new Vector3(1, 1, 1);
+        else transform.localScale = new Vector3(-1, 1, 1);
+
+        // Shoot to John
+        float distance = Mathf.Abs(John.transform.position.x - transform.position.x);
+        if (distance < DISTANCE_TO_SHOT) Shoot();
+            
         
     }
 
@@ -35,6 +50,25 @@ public class GruntMovement : MonoBehaviour
     {
         //Patrol();
 
+    }
+
+    private void Shoot() {
+        if (Time.time >= lastShoot + SHOOT_DELAY)
+        {
+            Vector3 direction = transform.localScale.x == 1.0f ? Vector3.right : Vector3.left;
+            GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);            
+            bullet.GetComponent<Bullet>().SetDirection(direction, 1f);
+            lastShoot = Time.time;
+        }
+    }
+
+    public void Die() {        
+        Animator.SetBool("die", true);
+    }
+
+    public void DestroyGrunt()
+    {
+        Destroy(gameObject);
     }
 
     private void Patrol() {
