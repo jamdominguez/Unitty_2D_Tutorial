@@ -17,7 +17,8 @@ public class GruntMovement : MonoBehaviour
     void Start()
     {
         Animator = GetComponent<Animator>();
-        Animator.SetBool("running", true);
+        Animator.SetBool("running", false);
+        Animator.SetBool("hited", false);
         Rigidbody2D = GetComponent<Rigidbody2D>();
         initialPosition = transform.position;
         speed = 0.4f;
@@ -32,7 +33,7 @@ public class GruntMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Patrol();
+        //Patrol();
 
     }
 
@@ -49,9 +50,9 @@ public class GruntMovement : MonoBehaviour
         }
         // Moving Left
         if (!runningRight && currentPosition.x > initialPosition.x - MAX_MOVEMENT_X)
-        {
+        {            
             Rigidbody2D.velocity = new Vector2(-speed, Rigidbody2D.velocity.y);
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-1, 1, 1);            
         }
         // Check Position and update info
         if (runningRight && currentPosition.x >= initialPosition.x + MAX_MOVEMENT_X)
