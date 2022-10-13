@@ -52,6 +52,8 @@ public class JohnMovement : MonoBehaviour
 
         // Shot
         if (Input.GetKeyDown(KeyCode.K)) Shoot();
+
+        Debug.Log("John position: " + transform.position.x);
     }
 
     private void Shoot()
