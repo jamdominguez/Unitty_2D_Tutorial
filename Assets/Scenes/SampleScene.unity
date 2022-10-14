@@ -646,7 +646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404934850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.25, y: -0.06548004, z: 0}
+  m_LocalPosition: {x: 2.49, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -756,7 +756,6 @@ MonoBehaviour:
   speed: 0
   John: {fileID: 1982022722}
   BulletPrefab: {fileID: 7813473453989780346, guid: b480ef480ea52304b8554bfbc036868d, type: 3}
-  OffSetGunSprite: {x: 0, y: 5, z: 0}
 --- !u!50 &404934856
 Rigidbody2D:
   serializedVersion: 4
@@ -10250,7 +10249,6 @@ MonoBehaviour:
   Speed: 0
   BulletPrefab: {fileID: 7813473453989780346, guid: b480ef480ea52304b8554bfbc036868d, type: 3}
   ShootDelayTime: 0
-  OffSetGunSprite: {x: 0, y: 5, z: 0}
 --- !u!95 &1982022728
 Animator:
   serializedVersion: 4
