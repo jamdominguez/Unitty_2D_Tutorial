@@ -8,6 +8,9 @@ public class GruntMovement : MonoBehaviour
     public GameObject John;
     public GameObject BulletPrefab;    
 
+
+
+
     private Animator Animator;
     private Rigidbody2D Rigidbody2D;
 

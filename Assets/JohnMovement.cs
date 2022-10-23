@@ -7,8 +7,6 @@ public class JohnMovement : MonoBehaviour
 {
     public float JumpForce;
     public float Speed;
-    private bool Grounded;
-    private bool Running;
     public GameObject BulletPrefab;
     public float ShootDelayTime;
 
@@ -17,6 +15,8 @@ public class JohnMovement : MonoBehaviour
     private float Horizontal;
     private float LastShootTime;
     private bool isDie;
+    private bool Grounded;
+    private bool Running;
 
     // Start is called before the first frame update
     void Start()
