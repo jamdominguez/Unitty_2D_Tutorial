@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log("Bullet - speed: " + speed);
+        //Debug.Log("Bullet - speed: " + speed);
         Rigidbody2D.velocity = Direction * speed;
     }
 

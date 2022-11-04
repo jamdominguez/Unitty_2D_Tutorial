@@ -6,10 +6,7 @@ public class GruntMovement : MonoBehaviour
 {
     public float speed;
     public GameObject John;
-    public GameObject BulletPrefab;    
-
-
-
+    public GameObject BulletPrefab;
 
     private Animator Animator;
     private Rigidbody2D Rigidbody2D;
@@ -21,6 +18,11 @@ public class GruntMovement : MonoBehaviour
     private bool runningRight;
     private float lastShoot;
 
+
+    public void DestroyGrunt() {
+        GameManager.gameManager.AddEnemiesDefeat(1);
+        Destroy(gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -67,11 +69,6 @@ public class GruntMovement : MonoBehaviour
 
     public void Die() {        
         Animator.SetBool("die", true);
-    }
-
-    public void DestroyGrunt()
-    {
-        Destroy(gameObject);
     }
 
     private void Patrol() {
